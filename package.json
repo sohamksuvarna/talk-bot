@@ -1,0 +1,23 @@
+{
+  "name": "talk-bot",
+  "version": "1.0.0",
+  "description": "Talk with an AI in a Discord VC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "ai",
+    "chatbot"
+  ],
+  "author": "ShadeOxide",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "@k3rn31p4nic/google-translate-api": "^1.1.1",
+    "discord.js": "^12.5.1",
+    "google-tts-api": "0.0.6",
+    "quick.db": "^7.1.3"
+  }
+}
